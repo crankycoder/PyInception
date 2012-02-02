@@ -1,0 +1,11 @@
+What if 
+    * you had Java.  
+    * but it was inside of the IKVM
+    * which was running inside of Mono
+    * but was embedded inside of a CPython extension?
+
+You have a horrible hack.
+
+Introducing PyInception.  
+
+Run your arbitrary bytecode in CPython.
