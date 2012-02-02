@@ -1,0 +1,17 @@
+This is a cython binding to Mono to allow integration of .NET managed
+code with CPython.
+
+Basic functionality includes:
+
+1) Construction of .NET classes
+2) Invocation of object methods
+3) Value-type attributes
+4) Reference type attributes
+
+Not supported (yet anyway)
+
+* callback functions
+    
+    This should be possible with a little bit of cython code
+    generation, but I'm not going to worry right now
+
